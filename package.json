@@ -1,0 +1,26 @@
+{
+    "name": "vscode-dlang-syntax",
+    "displayName": "D language syntax",
+    "description": "D language syntax",
+    "version": "0.0.0",
+    "publisher": "chloekek",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "contributes": {
+        "grammars": [
+            {
+                "language": "d",
+                "scopeName": "source.d",
+                "path": "./syntaxes/d.json"
+            }
+        ],
+        "languages": [
+            {
+                "id": "d",
+                "extensions": [ ".d", ".di" ],
+                "aliases": [ "D" ]
+            }
+        ]
+    }
+}
