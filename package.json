@@ -19,7 +19,8 @@
             {
                 "id": "d",
                 "extensions": [ ".d", ".di" ],
-                "aliases": [ "D" ]
+                "aliases": [ "D" ],
+                "configuration": "./lang-configs/d.json"
             }
         ]
     }
